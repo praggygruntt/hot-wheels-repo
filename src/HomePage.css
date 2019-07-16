@@ -1,0 +1,28 @@
+.HomePage {
+    background: url("https://wallpapertag.com/wallpaper/full/d/3/f/545701-hot-wheels-wallpapers-1920x1080-for-macbook.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.HomePage h1 {
+    text-shadow: 2px 2px black;
+    color: white;
+    font-family: 'Bahainita', cursive;
+}
+.Link {
+    width: 20%;
+}
+@media all and (max-width: 425px) {
+    .HomePage h1 {
+        font-size: 3em;
+        position: relative;
+        bottom: 50px;
+    }
+    .HomePage .Link {
+        position: relative;
+        bottom: 50px;
+    }
+}

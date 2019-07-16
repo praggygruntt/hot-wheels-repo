@@ -1,4 +1,18 @@
 .Car img {
     width: 75%;
     border-radius: 50%;
+    box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.43);
+    transition: .3s ease;
+}
+.Car img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+div.row > div {
+    width: 100%;
+}
+
+.Car {
+    flex-wrap: wrap;
 }
